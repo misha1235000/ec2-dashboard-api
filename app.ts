@@ -5,7 +5,7 @@ import express from 'express';
 import { Ec2Router } from './ec2/ec2.router';
 
 const app = express();
-const port = 3005;
+const port = process.env.PORT || 80;
 
 app.use(cors());
 
