@@ -1,10 +1,11 @@
 {
-  "name": "ecserver",
+  "name": "ec-dashboard-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "node dist/app.js",
+    "postinstall": "tsc",
     "test": "mocha -r ts-node/register test/**/*.spec.ts --timeout 15000 --exit"
   },
   "author": "Michael Tsirulnikov",
@@ -18,7 +19,7 @@
     "@types/supertest": "^2.0.10",
     "ts-node": "^9.1.1",
     "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "typescript": "^3.9.9"
   },
   "dependencies": {
     "chai": "^4.3.3",

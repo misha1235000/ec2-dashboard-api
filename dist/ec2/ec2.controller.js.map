@@ -1,1 +1,0 @@
-{"version":3,"file":"ec2.controller.js","sourceRoot":"","sources":["../../ec2/ec2.controller.ts"],"names":[],"mappings":";AAAA,iBAAiB;;;;;;;;;;AAGjB,0CAA6C;AAE7C,MAAa,aAAa;IACtB;;;;OAIG;IACI,MAAM,CAAO,eAAe,CAAC,GAAY,EAAE,GAAa;;YAC3D,4FAA4F;YAC5F,OAAO,GAAG,CAAC,IAAI,CAAC,mBAAW,CAAC,CAAC,CAAC,CAAC,CAAC;QACpC,CAAC;KAAA;CACJ;AAVD,sCAUC"}
