@@ -15,7 +15,7 @@ Clone the repository by using the git cli
 git clone https://github.com/misha1235000/ec-dashboard-api.git
 ```
 
-## Install Packages
+## Install Packages and start the application
 
 After cloning the repository, you need to cd to ec-dashboard-api, and run npm install, npm run postinstall, and npm start
 
@@ -25,8 +25,16 @@ npm install
 npm run postinstall
 npm start
 ```
+
+## Testing
+
+You can run `npm test` in order to run the tests that are avaliable.
+
+## Finish
+
 Thats it, now you can use this api to get the ec2 instances in the following URL locally:
 
 ```bash
 http://localhost
 ```
+
